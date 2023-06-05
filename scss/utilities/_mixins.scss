@@ -1,0 +1,24 @@
+/* Mixin para estilizar los títulos */
+@mixin title {
+  font-weight: bold;
+  font-family: "Bebas Neue";
+  text-shadow: 10px 10px 10px #000000;
+}
+  
+/* Mixin para estilizar imagen */
+@mixin image($margin-rigth) {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border: 10px solid #aae11f;
+  border-radius: 10px; 
+  margin-right: $margin-rigth;
+}
+  
+/* Mixin para boton */
+@mixin boton {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}

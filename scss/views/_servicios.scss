@@ -1,0 +1,32 @@
+.fondo-servicio {
+  background: linear-gradient(to bottom, #ffffff, #c5d1a1);
+}
+
+.titulo-servicios {
+    font-weight: bold;
+    font-family: $font-family;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 5vh;
+    margin-top: 10px;
+  }
+  
+  .imagen-servicios {
+    width: 99%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 90px 10px 75px ;
+    
+    img { 
+      @include image(100px);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  
+  

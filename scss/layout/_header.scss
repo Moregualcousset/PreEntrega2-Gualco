@@ -1,0 +1,15 @@
+.container-fluid { 
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.color-nav {
+  background: linear-gradient(to top, $color-primary, #8dbd16);
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  padding: 0;
+}

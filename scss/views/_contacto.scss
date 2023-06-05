@@ -1,0 +1,100 @@
+.fondo-contact {
+  background-image: url('../img/fondocontact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 95vh;
+}
+  
+.body-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  font-family: $font-family;
+  margin: 40px; 
+  width: 300px; 
+  max-width: 100%;
+  z-index: 1;
+  
+  h2 {
+    @include title;
+    margin: 0;
+    font-size: 70px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 4px solid $color-primary;
+  }
+  
+  button {
+    @include boton;
+    background: linear-gradient(to bottom, $color-primary, $color-terciary);
+    display: block;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 35px;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    width: fit-content;
+    
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}  
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-family;
+  margin-top: 40px;
+  margin-left: 10%;
+  
+  h2 {
+    @include title;
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 30px; 
+    color: $color-primary;
+  }
+  
+  .contact-imagen {
+    max-width: 70%;
+    height: auto;
+    
+    img {
+      width: 100%; 
+      height: auto;
+      margin-right: 0px;
+      border-radius: 1%;
+      border: 10px solid $color-primary;
+    }
+  }
+}

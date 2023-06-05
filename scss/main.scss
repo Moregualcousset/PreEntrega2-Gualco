@@ -1,0 +1,16 @@
+@import 'utilities/variables';
+@import 'base/reset';
+@import 'utilities/mixins';
+
+//views
+@import 'views/home';
+@import 'views/servicios';
+@import 'views/shop';
+@import 'views/entrenamientos';
+@import 'views/contacto';
+
+//layout
+@import 'layout/header';
+
+//vendors
+@import 'vendors/mediaqueris';

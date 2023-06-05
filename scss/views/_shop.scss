@@ -1,0 +1,41 @@
+.fondo {
+  background-image: url("../img/suplementosfondo.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.text-start-container {
+  padding: 100px;
+}
+
+.text-start {
+  @include title;
+  color: #fff;
+  font-size: 70px;
+}
+
+.carousel-inner {
+	border: 10px solid $color-primary;
+  border-radius: 5px;
+}
+
+.custom-carousel-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  max-width: 0px;
+  z-index: 9999;
+}
+
+.custom-carousel-container .carousel-inner {
+  height: 400px;
+  width: 750px;
+  margin-block-end: 100px;
+}
+

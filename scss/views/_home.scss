@@ -1,0 +1,46 @@
+.index-container {
+  display: grid;
+  place-items: center;
+  height: 87vh;
+  background-image: url('../img/fotoprincipal.jpg');
+  background-size: cover;
+  gap: 20px; 
+  text-align: center; 
+}
+
+.index-titulo {
+  @include title;
+  transform: skewX(-10deg);
+  font-size: 7em;
+  margin: 0;
+  color: #ffffff;
+  margin-right: 1200px; 
+}
+
+.index-texto {
+  align-self: start;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000; 
+  margin-right: 1200px; 
+  margin-top: 0px;
+  font-family: $font-family;
+}
+
+.index-button {
+  @include boton;
+  background: linear-gradient(to bottom, $color-primary, $color-terciary);
+  text-decoration: none; 
+  color: #fff; 
+  width: 300px;
+  height: 100px;
+  font-size: 25px;
+  margin: auto;
+  margin-right: 1410px; 
+ 
+}
+
+.index-button:hover {
+  color: #000000;
+}
